@@ -1,0 +1,128 @@
+/* App.css */
+
+/* Styles for the main container */
+.main-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Heading style */
+.heading {
+  text-align: center;
+  color: black
+}
+
+/* Center container style */
+.center-container {
+  margin-top: 20px;
+}
+
+/* Style for the todo input form */
+.todo-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Button style for adding todo items */
+.add-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the todo list item */
+.todo-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.todo-item-text {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.delete-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between; /* Aligns items to each end of the container */
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: white;
+}
+
+.list-item span {
+  margin-left: 10px;
+}
+
+.del-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.del-btn:hover {
+  background-color: #bd2130;
+}
+
+
+/* Todoinput.css */
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.add-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #0056b3;
+}
+
+body{
+  background-color: #e1dede;
+}
